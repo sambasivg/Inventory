@@ -1,0 +1,15 @@
+﻿<?xml version
+      ="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    
+    <UserID>qa+applicant@unleashedsoftware.com</UserID>
+    <Password>P@ssw0rd12345</Password>
+    <ProductCode>prd109346</ProductCode>
+    <ProductDescription>purchaseproduct</ProductDescription>
+    <Barcode>343545</Barcode>
+    <UnitOfMeasure>KG</UnitOfMeasure>
+    <ProductGroup>Material</ProductGroup>
+     
+  </Row>
+</Rows>

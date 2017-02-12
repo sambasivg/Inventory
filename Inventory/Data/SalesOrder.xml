@@ -1,0 +1,17 @@
+﻿<?xml version
+      ="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    
+    <UserID>qa+applicant@unleashedsoftware.com</UserID>
+    <Password>P@ssw0rd12345</Password>
+    <CustomerCodeId>ABC</CustomerCodeId>
+    <DiscountId>10.00</DiscountId>
+    <SalespersonId>John Smith: johh.smith@unleashedsoftware.com</SalespersonId>
+    <SalesOrderGroupId>Shop</SalesOrderGroupId>
+    <ProductAddLineId>[Automation+001e83fa-0014-456a-ad3c-1b6741f48008] Automation Test</ProductAddLineId>
+    <QtyAddLineId>10.00</QtyAddLineId>
+    <DiscountRateAddLineId>5.00</DiscountRateAddLineId>
+    <PriceAddLineid>50.00</PriceAddLineid> 
+  </Row>
+</Rows>
