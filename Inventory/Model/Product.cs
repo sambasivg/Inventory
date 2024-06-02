@@ -36,13 +36,13 @@ namespace Inventory.Model
              
             try
             {
-                Prod.Userid = Convert.ToString(Proddetails["UserID"]); // Convert.ToString(dataRow.GetValue(0));
-                Prod.password = Convert.ToString(Proddetails["Password"]); // Convert.ToString(dataRow[2]);
-                Prod.ProductCode = Convert.ToString(Proddetails["ProductCode"]); // Convert.ToString(dataRow.GetValue(0));
-                Prod.ProductDescription = Convert.ToString(Proddetails["ProductDescription"]); // Convert.ToString(dataRow[2]);
-                Prod.Barcode = Convert.ToString(Proddetails["Barcode"]); // Convert.ToString(dataRow[3]);
-                Prod.UnitOfMeasure = Convert.ToString(Proddetails["UnitOfMeasure"]); // Convert.ToString(dataRow[4]);
-                Prod.ProductGroup = Convert.ToString(Proddetails["ProductGroup"]); // Convert.ToString(dataRow[5]);
+                Prod.Userid = Convert.ToString(Proddetails["UserID"]); 
+                Prod.password = Convert.ToString(Proddetails["Password"]); 
+                Prod.ProductCode = Convert.ToString(Proddetails["ProductCode"]);
+                Prod.ProductDescription = Convert.ToString(Proddetails["ProductDescription"]); 
+                Prod.Barcode = Convert.ToString(Proddetails["Barcode"]);
+                Prod.UnitOfMeasure = Convert.ToString(Proddetails["UnitOfMeasure"]);
+                Prod.ProductGroup = Convert.ToString(Proddetails["ProductGroup"]);
                 }
             catch (Exception e)
             {
@@ -56,17 +56,17 @@ namespace Inventory.Model
 
             try
             {
-                Prod.Userid = Convert.ToString(Proddetails["UserID"]); // Convert.ToString(dataRow.GetValue(0));
-                Prod.password = Convert.ToString(Proddetails["Password"]); // Convert.ToString(dataRow[2]);
-                Prod.CustomerCodeId = Convert.ToString(Proddetails["CustomerCodeId"]); // Convert.ToString(dataRow.GetValue(0));
-                Prod.DiscountId = Convert.ToString(Proddetails["DiscountId"]); // Convert.ToString(dataRow[2]);
-                Prod.SalespersonId = Convert.ToString(Proddetails["SalespersonId"]); // Convert.ToString(dataRow[3]);
-                Prod.SalesOrderGroupId = Convert.ToString(Proddetails["SalesOrderGroupId"]); // Convert.ToString(dataRow[4]);
-                Prod.ProductAddLineId = Convert.ToString(Proddetails["ProductAddLineId"]); // Convert.ToString(dataRow[5]);
+                Prod.Userid = Convert.ToString(Proddetails["UserID"]);
+                Prod.password = Convert.ToString(Proddetails["Password"]); 
+                Prod.CustomerCodeId = Convert.ToString(Proddetails["CustomerCodeId"]); 
+                Prod.DiscountId = Convert.ToString(Proddetails["DiscountId"]);
+                Prod.SalespersonId = Convert.ToString(Proddetails["SalespersonId"]); 
+                Prod.SalesOrderGroupId = Convert.ToString(Proddetails["SalesOrderGroupId"]);
+                Prod.ProductAddLineId = Convert.ToString(Proddetails["ProductAddLineId"]); 
 
-                Prod.QtyAddLineId = Convert.ToString(Proddetails["QtyAddLineId"]); // Convert.ToString(dataRow[3]);
-                Prod.DiscountRateAddLineId = Convert.ToString(Proddetails["DiscountRateAddLineId"]); // Convert.ToString(dataRow[4]);
-                Prod.PriceAddLineid = Convert.ToString(Proddetails["PriceAddLineid"]); // Convert.ToString(dataRow[5]);
+                Prod.QtyAddLineId = Convert.ToString(Proddetails["QtyAddLineId"]); 
+                Prod.DiscountRateAddLineId = Convert.ToString(Proddetails["DiscountRateAddLineId"]);
+                Prod.PriceAddLineid = Convert.ToString(Proddetails["PriceAddLineid"]); 
             }
             catch (Exception e)
             {
